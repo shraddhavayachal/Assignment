@@ -14,7 +14,7 @@ class B(A):
         super().display()
         print("This is a class B display()")
         try:
-            print("Value of a is %d"%(self.__x))
+            print("Value of x is %d"%(self.__x))
         except AttributeError: 
             print("YOU CAN'T ACCESS PRIVATE ELEMENTS")
         print("Value of y is %d"%(self._y))
